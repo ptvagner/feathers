@@ -80,6 +80,7 @@ npm start
 <LanguageBlock global-id="js">
 
 ```sh
+npm run compile
 npm start
 ```
 
