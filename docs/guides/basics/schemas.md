@@ -6,7 +6,7 @@ In Feathers, schemas and resolvers allow us to define, validate and secure our d
 
 As we've briefly seen in the [previous chapter about hooks](./hooks.md), there were a few hooks registered already to validate schemas and resolve data. Schema validators and resolvers are used with those hooks to modify data in the hook context. Similar to how Feathers services are transport independent, schemas and resolvers are database independent. It comes in two main parts:
 
-- [TypeBox](../../api/schema//typebox.md) or [JSON schema](../../api/schema//schema.md) to define a schema. This allows us to do things like:
+- [TypeBox](../../api/schema/typebox.md) or [JSON schema](../../api/schema/schema.md) to define a schema. This allows us to do things like:
   - Ensure data is valid and always in the right format
   - Automatically get up to date TypeScript types from schema definitions
   - Create a typed client that can be used in React, Vue etc. apps
